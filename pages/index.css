@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.background__image {
+.header__background {
     z-index: -1;
     background-size: cover;
     position: absolute;
@@ -142,7 +142,7 @@ color: white;
 
 }
 
-.recipies__subtitle {
+.recipes__subtitle {
     max-width: 438px;
     margin: 0 0 80px 80px;
     font-family: "Noto Serif";
@@ -159,7 +159,7 @@ color: white;
 
 }
 
-.recipies__iframe {
+.recipes__iframe {
     width: 480px;
     height: 273px;
     border: none;
