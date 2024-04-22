@@ -5,6 +5,7 @@
     font-family: "Inter", Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
+    padding: 0;
 }
 
 
@@ -22,11 +23,11 @@
     z-index: -1;
     background-size: cover;
     position: absolute;
-    overflow: visible;  
+    overflow: hidden;  
     top: 0px;
     height: 825px;
     background-position: right;
-    left: 35px;
+    left: 34px;
 }
 
 .nav{
@@ -152,11 +153,10 @@ color: white;
     line-height: 30px;
 }
 
-.recipe__videos {
+.recipes__videos {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .recipes__iframe {
@@ -208,3 +208,95 @@ color: white;
     margin-top: 0;
     padding: 0;
 }
+
+.reservation{
+    min-height: 1000px;
+    max-height: 1100px;
+    height: 100vh;
+    padding-top: 100px;
+    background-color: #D9E7FF;
+    background-image: url(../images/background_reservation.svg);
+    background-repeat: no-repeat;
+}
+
+.reservation__form{
+    margin: 0 auto;
+    border: hidden;
+    padding: 100px 0 120px;
+}
+
+.form{
+    max-width: 385px;
+}
+
+.reservation__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin:0 0 48px;
+    text-align: center;
+}
+
+.form__fieldset{
+    border: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+.form__input{
+    display: block;
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin:8px 0 32px;
+    padding: 0;
+    height: 60px;
+    text-indent: 10px;
+}
+
+.form__label{
+    margin: 32px 0 0;
+    padding: 0;
+}
+
+.form__label_type_checkbox{
+    display: flex;
+    justify-content: center;
+}
+
+.form__button{
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #2F80ED;
+    color: white;
+    margin: 0 0 32px;
+    height: 60px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.form__button:hover {
+    opacity: 70%;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+.form__checkbox{
+    width: 20px;
+    height: 20px;
+    margin: 0 12px 0 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 2px;
+}
+
