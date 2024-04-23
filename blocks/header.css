@@ -1,0 +1,112 @@
+.header {
+    padding: 30px 80px 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__background {
+    z-index: -1;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;  
+    top: 0px;
+    height: 825px;
+    background-position: right;
+    left: 34px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__logo {
+    position: relative;
+    width: 105px;
+    height: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+a.nav__link:hover{
+    color: #2F80ED;
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+}
+
+.nav__links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 20px;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+}
+
+.header__title{
+    max-width: 729px;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.6px;
+    margin: 183px 0 0;
+}
+
+.header__description {
+    max-width: 683px;
+    max-height: 80px;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 28px 0 0;
+}
+
+.header__span-accent {
+    display: block;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+}
+
+.header__image {
+    height: 568px;
+    width: 646px;
+    position: absolute;
+    z-index: -1;
+    padding-top: 94px;
+    margin-right: -75px;
+    margin-left: 720px;
+    overflow: hidden;
+}
+
+.header__footer {
+    display:flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #838383
+}
+
+.header__paragraph {
+    margin: 0;
+}

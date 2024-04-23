@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Adding animations to go along with embbeded content
+- Adding background gradiant for the header leading to the Recipes page
+- Adding a comments/review section at the bottom of the page
+- Changing image to animated version
