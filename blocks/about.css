@@ -1,81 +1,82 @@
-.about{
-    min-height: 40vh;
-    background-color: #0A2850;
-    color:white;
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 99px 80px 173px;
+.about {
+  min-height: 40vh;
+  background-color: #0a2850;
+  color: white;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 99px 80px 173px;
 }
 
-.about__title{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    padding: 0;
-    margin: 1px 0 0;
-    max-width: 251px;
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding: 0;
+  margin: 1px 0 0;
+  max-width: 251px;
 }
 
-.about__content{
-    display: flex;
-    flex-direction: column;
-    float: right;
+.about__content {
+  display: flex;
+  flex-direction: column;
+  float: right;
 }
 
-.about__paragraph{
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 660px;
-    float: right;
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  float: right;
+  margin: 20px 0 0px
 }
 
-.about__circle{
-    position:absolute;
-    border-radius: 50%;
-    z-index: -1;
-    width: 426px;
-    height: 426px;
-    background-color: #2f80ed;
-    margin: -152px 0 0 -129px;
-    overflow: hidden;
-    padding: 0;
-    top: 0;
-    left: 0;
+.about__circle {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  margin: -152px 0 0 -129px;
+  overflow: hidden;
+  padding: 0;
+  top: 0;
+  left: 0;
 }
 
-.about__circle_animation_blurred{
-    position:absolute;
-    border-radius: 50%;
-    z-index: -1;
-    width: 426px;
-    height: 426px;
-    background-color: #2f80ed;
-    margin: -152px 0 0 -129px;
-    overflow: hidden;
-    padding: 0;
-    top: 0;
-    left: 0;
-    animation: pulsations;
-    animation-duration: 1.3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+.about__circle_animation_blurred {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  margin: -152px 0 0 -129px;
+  overflow: hidden;
+  padding: 0;
+  top: 0;
+  left: 0;
+  animation: pulsations;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
-@keyframes pulsations{
-    0%{
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.6
-    }
-    100% {
-        transform: scale(1.15);
-        opacity: 0;
-    }
+@keyframes pulsations {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
 }
