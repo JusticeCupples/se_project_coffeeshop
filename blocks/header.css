@@ -3,6 +3,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .header__background {
@@ -12,8 +13,7 @@
     overflow: hidden;  
     top: 0px;
     height: 825px;
-    background-position: right;
-    left: 34px;
+    right: 0;
 }
 
 .nav{
@@ -88,11 +88,10 @@ a.nav__link:hover{
     height: 568px;
     width: 646px;
     position: absolute;
-    z-index: -1;
-    padding-top: 94px;
-    margin-right: -75px;
-    margin-left: 720px;
+    right: 2%;
+    top: 15%;
     overflow: hidden;
+    z-index: -1;
 }
 
 .header__footer {

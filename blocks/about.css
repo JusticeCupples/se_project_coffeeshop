@@ -20,9 +20,9 @@
 }
 
 .about__content{
-
     display: flex;
     flex-direction: column;
+    float: right;
 }
 
 .about__paragraph{
@@ -31,8 +31,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    margin: 20px 0 0 700px;
     max-width: 660px;
+    float: right;
 }
 
 .about__circle{
