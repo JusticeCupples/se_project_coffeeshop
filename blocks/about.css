@@ -1,5 +1,4 @@
 .about {
-  min-height: 40vh;
   background-color: #0a2850;
   color: white;
   position: relative;
@@ -9,12 +8,10 @@
 }
 
 .about__title {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding: 0;
   margin: 1px 0 0;
   max-width: 251px;
 }
@@ -22,7 +19,7 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  float: right;
+  display: flex;
 }
 
 .about__paragraph {
@@ -32,8 +29,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  float: right;
-  margin: 20px 0 0px
+  display: flex;
 }
 
 .about__circle {
@@ -43,7 +39,6 @@
   width: 426px;
   height: 426px;
   background-color: #2f80ed;
-  margin: -152px 0 0 -129px;
   overflow: hidden;
   padding: 0;
   top: 0;
@@ -51,17 +46,6 @@
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
-  border-radius: 50%;
-  z-index: -1;
-  width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  margin: -152px 0 0 -129px;
-  overflow: hidden;
-  padding: 0;
-  top: 0;
-  left: 0;
   animation: pulsations;
   animation-duration: 1.3s;
   animation-timing-function: ease-in-out;

@@ -1,14 +1,11 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  min-height: 20vh;
   flex-shrink: 0;
   bottom: 0;
   color: white;
-  overflow: hidden;
-  margin-top: auto;
   padding: 60px 80px;
-  margin: 0;
   position: relative;
+  display: flex;
 }
 
 .footer__content {
@@ -24,10 +21,10 @@
   line-height: 20px;
   padding: 0;
   margin: 0 0 20px;
-  float: right;
+  display: flex;
 }
 
-a.footer__social-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
   transition-timing-function: ease-in;
 }
@@ -48,7 +45,6 @@ a.footer__social-link:hover {
 .social__icon {
   width: 16px;
   height: 16px;
-  margin: 16px 0 0;
 }
 
 .footer__list {
@@ -59,26 +55,6 @@ a.footer__social-link:hover {
 
 .footer__list-item {
   padding: 0;
-}
-
-.footer__social-link-fb {
-  float: right;
-  margin: 0;
-}
-
-.footer__social-link-in {
-  float: right;
-  margin: 36px -75px 0;
-}
-
-.social__icon-fb {
-  float: right;
-  margin: 2px 10px 0 0;
-}
-
-.social__icon-in {
-  float: right;
-  margin: 38px -16px 0 0;
 }
 
 .footer__logo {
@@ -93,5 +69,4 @@ a.footer__social-link:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 165px 0 0;
 }

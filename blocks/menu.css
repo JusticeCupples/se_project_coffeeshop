@@ -1,5 +1,4 @@
 .menu {
-  min-height: 100vh;
   padding: 100px 0;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
@@ -15,7 +14,7 @@
   padding: 0;
   text-align: center;
   max-height: 780px;
-  font-family: "Inter";
+  font-family: "Inter" Arial,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -27,7 +26,7 @@
   padding: 0 0 100px;
   text-align: center;
   max-width: 780px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", 'Times New Roman',serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -39,18 +38,14 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
-  padding: 0 10%;
   margin: 0;
   list-style-type: none;
-}
-
-.card {
   width: 540px;
 }
 
 .card__title {
   margin: 0 0 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -68,7 +63,7 @@
 
 .card__list-item {
   display: flex;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", 'Times New Roman', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

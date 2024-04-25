@@ -1,24 +1,14 @@
 .header {
   padding: 30px 80px 40px 30px;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
-}
-
-.header__background {
-  z-index: -1;
+  background-image: url(../images/background_header.svg);
   background-size: cover;
-  position: absolute;
-  overflow: hidden;
-  top: 0px;
-  height: 825px;
-  right: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
+  background-repeat: no-repeat;
+  max-height: 0;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .nav__logo {
@@ -27,9 +17,11 @@
   height: 39px;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-a.nav__link:hover {
+.nav__link:hover {
   color: #2f80ed;
   transition-timing-function: ease-in;
   transition-duration: 0.3s;
@@ -45,6 +37,8 @@ a.nav__link:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__link {
@@ -66,7 +60,6 @@ a.nav__link:hover {
 
 .header__description {
   max-width: 683px;
-  max-height: 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -85,10 +78,6 @@ a.nav__link:hover {
 .header__image {
   height: 568px;
   width: 646px;
-  position: absolute;
-  right: 2%;
-  top: 15%;
-  overflow: hidden;
   z-index: -1;
 }
 

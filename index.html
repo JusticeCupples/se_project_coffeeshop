@@ -42,11 +42,6 @@
           the cozy vibes to help you get creative.
         </p>
         <img
-          class="header__background"
-          src="./images/background_header.svg"
-          alt="background image"
-        />
-        <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
           alt="cafe image"
@@ -76,7 +71,8 @@
               class="recipes__iframe"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            >              <p class="recipes__video-captions">Aeropress recipe <span>~5 min</span></p>
+          </iframe>
             <iframe
               src="https://www.youtube.com/embed/st571DYYTR8?si=TpL3twhwFKw7_I4y"
               title="French press recipe ~15 min"
@@ -84,13 +80,8 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
-            ></iframe>
-          </div>
-          <div class="recipes__video-captions">
-            <p class="recipes__video-caption-a">Aeropress recipe</p>
-            <p class="recipes__video-caption-b">~5 min</p>
-            <p class="recipes__video-caption-c">French press recipe</p>
-            <p class="recipes__video-caption-d">~15 min</p>
+            >            <p>French press recipe <span>~15 min</span></p>
+          </iframe>
           </div>
         </section>
         <section class="reservation" id="reservation">
@@ -244,8 +235,8 @@
           </ul>
         </section>
         <section class="about" id="about">
-          <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="block__element"></div>
+          <div class="block__element_modifier-key_modifier-value"></div>
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -264,32 +255,15 @@
         </section>
       </main>
       <footer class="footer">
-        <div class="footer__content">
-          <h4 class="footer__social-heading">Social media</h4>
+        <h4 class="footer__social-heading">Social media</h4>   
+        <div class="footer__content">      
           <img
             src="./images/logo_coffeeshop_light.svg"
             alt="a light colored version of the logo for the coffeeshop company"
             class="footer__logo"
           />
           <ul class="footer__list">
-            <li class="footer__list-item">
-              <a
-                href="https://www.facebook.com/profile.php?id=100082478208347"
-                target="_blank"
-                class="footer__social-link footer__social-link-fb"
-                >Facebook</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <a
-                href="https://www.instagram.com/justicecupples/"
-                target="_blank"
-                class="footer__social-link footer__social-link-in"
-                >Instagram</a
-              >
-            </li>
-          </ul>
-          <img
+            <img
             src="./images/facebook_white.svg"
             alt="A gray version of the f logo commonly associated with Facebook "
             class="social__icon social__icon-fb"
@@ -299,8 +273,25 @@
             alt="A gray version of the camera logo commonly associated with Instagram"
             class="social__icon social__icon-in"
           />
-          <h5 class="footer__copyright">&copy; 2024 Justice Cupples</h5>
+            <li class="footer__list-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100082478208347"
+                target="_blank"
+                class="footer__social-link"
+                >Facebook</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a
+                href="https://www.instagram.com/justicecupples/"
+                target="_blank"
+                class="footer__social-link"
+                >Instagram</a
+              >
+            </li>
+          </ul>
         </div>
+        <p class="footer__copyright">&copy; 2024 Justice Cupples</p>
       </footer>
     </div>
   </body>
