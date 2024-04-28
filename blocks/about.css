@@ -5,31 +5,32 @@
   z-index: 2;
   margin: 0;
   padding: 99px 80px 173px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 1px 0 0;
+  margin: 1px 0 0 0;
   max-width: 251px;
 }
 
 .about__content {
-  display: flex;
   flex-direction: column;
-  display: flex;
 }
 
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  display: flex;
+  margin: 20px 0 0 0;
 }
 
 .about__circle {
@@ -41,15 +42,12 @@
   background-color: #2f80ed;
   overflow: hidden;
   padding: 0;
-  top: 0;
-  left: 0;
+  top: -152px;
+  left: -129px;
 }
 
 .about__circle_animation_blurred {
-  animation: pulsations;
-  animation-duration: 1.3s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  animation: pulsations 1.3s ease-in-out infinite;
 }
 
 @keyframes pulsations {
