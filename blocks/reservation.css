@@ -13,6 +13,7 @@
   padding: 0 0 120px;
   max-width: 385px;
 }
+
 .reservation__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -43,10 +44,10 @@
   text-indent: 10px;
   box-sizing: border-box;
   border-radius: 4px;
-  border: solid 2px #838383;
+  border: solid 1px #838383;
 }
 
-input::placeholder {
+.form__input::placeholder {
   color: #838383;
 }
 

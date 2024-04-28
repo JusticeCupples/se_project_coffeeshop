@@ -1,5 +1,7 @@
 .header {
   padding: 30px 80px 40px 80px;
+  min-height: 720px;
+  max-height: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,10 +16,8 @@
   position: absolute;
   width: 646px;
   height: 568px;
-  margin: 124px 5px 60px 0;
-  padding: 0;
-  right: 0;
-  top: 0;
+  right: 5px;
+  top: 124px;
   z-index: 1;
 }
 
@@ -42,9 +42,8 @@
   margin: 183px 0 28px 0;
 }
 
-.nav {
+.nav__wrapper {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
