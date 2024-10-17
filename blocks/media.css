@@ -8,9 +8,9 @@ body {
 }
 
 .page {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 20px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -102,6 +102,12 @@ body {
   .card {
     width: 100%;
     max-width: 540px;
+  }
+
+  .dark-mode-toggle {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
   }
 }
 

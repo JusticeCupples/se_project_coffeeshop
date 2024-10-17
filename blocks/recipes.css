@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+body.dark-mode .recipes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background_recipes.svg);
+  background-color: #1a1a1a;
+}
+
 .recipes__title {
   max-width: 580px;
   margin: 0 0 24px 0;

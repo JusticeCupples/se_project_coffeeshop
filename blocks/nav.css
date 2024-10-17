@@ -36,3 +36,25 @@
   transition-timing-function: ease-out;
   transition-duration: 1s;
 }
+
+body.dark-mode .nav {
+  background-color: rgba(26, 26, 26, 0.95);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body.dark-mode .nav__link {
+  color: #f0f0f0;
+}
+
+body.dark-mode .nav__link:hover {
+  color: #4a90e2;
+}
+
+body.dark-mode .nav__logo {
+  filter: brightness(0) invert(1);
+}
+
+body.dark-mode .header__paragraph {
+  color: #ccc;
+}

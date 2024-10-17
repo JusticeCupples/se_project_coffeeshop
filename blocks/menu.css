@@ -9,6 +9,11 @@
   z-index: 3;
 }
 
+body.dark-mode .menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background_menu.svg);
+  background-color: #1a1a1a;
+}
+
 .menu__cards {
   display: flex;
   justify-content: center;
