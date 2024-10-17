@@ -1,41 +1,129 @@
-@media screen and (max-width: 400px){
-    .page{
-    margin: 0;
-    width: 50%;
-    }
-    .header{
-        padding: 50px 0 0 20px
-    }
-    .header__title{
-        z-index: 3;
-    }
-    .header__image{
-        width: 40%;
-        height: 60%;
-    }
-    .recipes__iframe{
-        width: 100%;
-    }
-    
+/* Base styles */
+html {
+  font-size: 16px;
 }
 
-@media screen and (max-width: 1500px){
-    .page{
-    margin: 0;
-    width: 50%;
-    }
-    .header{
-        padding: 50px 0 0 20px
-    }
-    .header__title{
-        z-index: 3;
-    }
-    .header__image{
-        width: 40%;
-        height: 60%;
-    }
-    .recipes__iframe{
-        width: 100%;
-    }
-    
+body {
+  min-width: 320px;
+}
+
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Large desktop screens */
+@media screen and (min-width: 1501px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Desktop and laptop screens */
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Tablets and small laptops */
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+
+  .header {
+    padding: 2rem 1rem;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .header__image {
+    width: 40%;
+    height: auto;
+    right: 1rem;
+  }
+
+  .recipes,
+  .reservation,
+  .menu,
+  .about,
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Tablets in portrait mode and large phones */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .header__image {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__logo {
+    margin: 0 0 1rem 0;
+  }
+
+  .nav__links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .recipes__videos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recipes__iframe {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .menu__cards {
+    gap: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 540px;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+
+  .header__footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__logo {
+    margin-bottom: 1rem;
+  }
 }
