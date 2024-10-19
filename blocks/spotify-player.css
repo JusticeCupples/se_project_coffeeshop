@@ -1,0 +1,72 @@
+.spotify-player {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  z-index: 1000;
+  overflow: hidden;
+  cursor: default;
+  height: fit-content;
+}
+
+.spotify-player * {
+  cursor: default;
+}
+
+.spotify-player__button,
+.spotify-player__control-button {
+  cursor: pointer;
+}
+
+.spotify-player__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.spotify-player__close-button {
+  color: red;
+}
+
+.spotify-player__content {
+  padding: 10px;
+}
+
+.spotify-player__minimized-controls {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+body.dark-mode .spotify-player {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .spotify-player {
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+}
+
+.spotify-player__expand-button {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+body.dark-mode .spotify-player__expand-button {
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -267,6 +267,17 @@
             </p>
           </div>
         </section>
+        <div id="spotify-player" class="spotify-player">
+          <div class="spotify-player__header">
+            <button id="minimizeButton" class="spotify-player__button">-</button>
+            <div id="dragHandle" class="spotify-player__drag-handle">You can drag me!</div>
+            <button id="closeButton" class="spotify-player__button spotify-player__close-button">X</button>
+          </div>
+          <div id="playerContent" class="spotify-player__content">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2lMgz2BBwwzkc9ZfNB9zYi?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+        <button id="expandButton" class="spotify-player__expand-button" style="display: none;">+</button>
       </main>
       <footer class="footer">
         <div class="footer__content">
@@ -312,6 +323,7 @@
         <p class="footer__copyright">&copy; 2024 Justice Cupples</p>
       </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/spotify-player.js"></script>
   </body>
 </html>

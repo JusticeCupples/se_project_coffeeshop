@@ -9,4 +9,5 @@
 @import url(../blocks/nav.css);
 @import url(../blocks/form.css);
 @import url(../blocks/card.css);
-@import url(../blocks/media.css)
+@import url(../blocks/media.css);
+@import url('../blocks/spotify-player.css');
